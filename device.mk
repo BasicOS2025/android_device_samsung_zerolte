@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/samsung/zerolte
 
+# Android 17 init selects device hooks through Soong configuration.
+$(call soong_config_set,libinit,vendor_init_lib,//$(DEVICE_PATH):libinit_zerolte)
+
 # Permissions
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml

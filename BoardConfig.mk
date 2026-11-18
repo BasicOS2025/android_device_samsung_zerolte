@@ -33,8 +33,6 @@ TARGET_OTA_ASSERT_DEVICE := zerolte,zeroltexx,zerolteskt,zeroltetmo,zeroltebmc,z
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_zerolte
 
 # Kernel
 TARGET_KERNEL_CONFIG := exynos7420-zerolte_defconfig
