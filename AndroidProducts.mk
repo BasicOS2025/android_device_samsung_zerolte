@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_zerolte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zerolte-userdebug \
-    lineage_zerolte-user \
-    lineage_zerolte-eng
+    lineage_zerolte-cp2a-userdebug \
+    lineage_zerolte-cp2a-user \
+    lineage_zerolte-cp2a-eng
